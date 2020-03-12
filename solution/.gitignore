@@ -1,0 +1,18 @@
+# vscode
+.vscode
+
+# venv files
+venv
+
+# python cache files
+*.pyc
+
+#db
+db.sqlite3
+
+# coverage files
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
