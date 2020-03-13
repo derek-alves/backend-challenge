@@ -1,8 +1,9 @@
 # vscode
 .vscode
 
-# venv files
+# environment files
 venv
+.env
 
 # python cache files
 *.pyc
