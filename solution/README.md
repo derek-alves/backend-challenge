@@ -92,8 +92,8 @@
 			"slug": "Slug",
 			"city": "String",
 			"state": "String",
-			"created_at": "String", # '2020-03-13T04:08:19.957061Z'
-			"updated_at": "String", # '2020-03-13T04:08:19.957061Z'
+			"created_at": "String", # '2020-03-13T04:08:19.957061Z' - UTC
+			"updated_at": "String", # '2020-03-13T04:08:19.957061Z' - UTC
 		}
 
 * Response Syntax to get all places:
@@ -105,8 +105,8 @@
 				"slug": "Slug",
 				"city": "String",
 				"state": "String",
-				"created_at": "String", # '2020-03-13T04:08:19.957061Z'
-				"updated_at": "String", # '2020-03-13T04:08:19.957061Z'
+				"created_at": "String", # '2020-03-13T04:08:19.957061Z' - UTC
+				"updated_at": "String", # '2020-03-13T04:08:19.957061Z' - UTC
 			}
 		]
 
