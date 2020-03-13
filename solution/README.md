@@ -69,7 +69,7 @@
 * Request Syntax to update a place:
 	
 		response = client.put(
-			"/events/<id>/",
+			"/place/<id>/",
 			data={
 				"name": "String",
 				"slug": "Slug",
@@ -80,7 +80,7 @@
 	
 * Request Syntax to delete a place:
 		
-		response = client.delete("/events/<id>/")
+		response = client.delete("/place/<id>/")
 
 * **Delete a place returns 204 status only. The other methods contain response.status and response.data**
 
